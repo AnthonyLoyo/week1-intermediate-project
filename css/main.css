@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+/* BEGINNING OF NAVIGATION */
+
+.navigation {
+    background-color: #262626;
+    height: 70px;
+    /*
+        The 'height' property sets the height if a element.
+    */
+}
+.navigation .logo {
+    color: whitesmoke;
+    float: left;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.navigation ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 35px;
+}
+.navigation ul li.active a{
+    color: #00a2e2;
+}
+
+/* ENDING OF NAVIGATION */
+
+.header {
+    background-color: #00a2e2;
+    text-align: center;
+}
+.header h1 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 60px;
+    color: #262626;
+}
+.header h5{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #262626;
+}
+.header a {
+    color: yellow;
+    padding-top: 50px;
+}
