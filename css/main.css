@@ -41,6 +41,8 @@
 
 /* ENDING OF NAVIGATION */
 
+/* BEGINNING OF HEADER */
+
 .header {
     background-color: #00a2e2;
     text-align: center;
@@ -53,11 +55,57 @@
 }
 .header h5{
     font-size: 45px;
+    font-weight: ;
     padding-top: 20px;
     padding-bottom: 50px;
     color: #262626;
 }
 .header a {
-    color: yellow;
-    padding-top: 50px;
+    color: #00a2e2;
+    background-color: #262626;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 45px;
+    display: inline-block;
+    padding: 13px 22px;
+}
+
+/* ENDING OF HEADER */
+
+/* BEGINNING OF FEATURES */
+
+.features {
+    background-color: whitesmoke;
+    color: #262626;
+    height: 450px;
+}
+.item {
+    float: left;
+    text-align: center;
+    margin: 25px 0;
+    padding: 5px 0 20px 0;
+    width: 33%;
+}
+
+/* ENDING OF FETURES */
+
+/* BEGGINING OF FOOTER */
+
+.footer {
+    color: whitesmoke;
+    background-color: #262626;
+    text-align: center;
+    padding: 10px 10px 15px 10px;
+}
+.footer h4 {
+    font-size: 20px;
+}
+.footer p {
+    font-size: 18px;
+}
+.footer p a {
+    color: #00a2e2;
+    text-decoration: none;
 }
